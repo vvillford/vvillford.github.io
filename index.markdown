@@ -20,7 +20,7 @@ I am currently studying for an M2 Mathematics (Optimisation) master degree at É
 
 Before this I completed a 3 year [BSc Mathematics](https://www.durham.ac.uk/study/courses/mathematics-g100/) and 1 year [MSc Mathematics](https://www.durham.ac.uk/study/courses/mathematical-sciences-g1k509/) at Durham University (England, UK) where I completed my master's thesis on optimal transport under the supervision of Dr Alpár Mészáros.
 
-My full CV (September 2024) is available here.
+My full CV (September 2024) is available [here](assets/Ford-CV 2024.pdf).
 
 # Research Interests
 
