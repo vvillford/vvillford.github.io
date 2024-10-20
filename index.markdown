@@ -11,7 +11,7 @@ Welcome to my personal webpage!
 
 <div class="profile-section" style="display: flex; align-items: flex-start;">
   <div class="profile-image">
-    <img src="/assets/photo2024.jpg" alt="Profile Photo" style="width:130px; height:auto; margin-right: 20px;" />
+    <img src="/assets/photo2024.JPG" alt="Profile Photo" style="width:130px; height:auto; margin-right: 20px;" />
   </div>
   <div class="profile-info">
     <p><strong>Full name:</strong> William Henry Ford.</p>
