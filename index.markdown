@@ -23,7 +23,7 @@ Welcome to my personal webpage!
 
 # Education
 
-I am currently studying an [M2 Mathematics (Optimisation)](https://www.master-in-optimization.fr/) master degree at the Institut Polytechnique de Paris, France as part of their [PhD track programme](https://programmes.polytechnique.edu/en/phd-program); supported by a [Sophie Germain Scholarship](https://www.fondation-hadamard.fr/en/our-programs/transversal-programs/graduate-program/apply-for-a-sophie-germain-scholarship/) from the Fondation Mathématique Jacques Hadamard, as well as an IP Paris PhD track full package scholarship.
+I am currently studying an [M2 Mathematics (Optimisation)](https://www.master-in-optimization.fr/) master degree at the Institut Polytechnique de Paris, France as part of their [PhD track programme](https://www.ip-paris.fr/en/education/phd-track/phd-track-mathematics); supported by a [Sophie Germain Scholarship](https://www.fondation-hadamard.fr/en/our-programs/transversal-programs/graduate-program/apply-for-a-sophie-germain-scholarship/) from the Fondation Mathématique Jacques Hadamard, as well as an IP Paris PhD track full package scholarship.
 
 Having completed the courses for this M2, I am persuing my M2 internship at the [Centre de Mathématiques Appliques](https://cmap.ip-paris.fr/) (CMAP), École Polytechnique, under the supervision of [Dr Michael Goldman](http://www.cmap.polytechnique.fr/~michael.goldman/) (CMAP) and [Dr Cyril Letrouit](https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html) (LMO Paris-Saclay). We are working on questions regarding quantitative stability in Optimal Transport.
 
