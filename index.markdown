@@ -29,7 +29,7 @@ My M2 internship (April - August 2025) is at the [Centre de Mathématiques Appli
 
 Before this I completed a 3 year [BSc Mathematics](https://www.durham.ac.uk/study/courses/mathematics-g100/) followed by a 1 year [MSc Mathematics](https://www.durham.ac.uk/study/courses/mathematical-sciences-g1k509/) at Durham University (England, UK). In both degrees I attained first class marks (très bien) in every module taken, and I recently recieved the Winton MSc Memorial Prize for the highest average marks on the MSc programme. I also recieved the Norton Prize for outstanding performance in the first year of my BSc in 2021. I completed my master's thesis on regularity of optimal transport maps, under the supervision of [Dr Alpár Mészáros](https://www.maths.dur.ac.uk/users/alpar.r.meszaros/).
 
-My CV (April 2025) is available [here](assets/CV-22-04-2025.pdf).
+My CV (September 2025) is available [here](assets/CV-29-sept-2025.pdf).
 
 # Research Interests
 
