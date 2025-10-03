@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: null
 title: William Ford — Optimal Transport
 ---
 
