@@ -83,7 +83,7 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
       <ul class="list">
         <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative stability in OT</a>.</li>
         <li>MSc thesis (OT regularity): <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">PDF</a>.</li>
-        <li>BSc thesis (complex analysis): <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">PDF</a>.</li>
+        <li>BSc thesis (compactness criteria/complex analysis): <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">PDF</a>.</li>
       </ul>
     </section>
 
@@ -109,3 +109,9 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
   "knowsAbout":["Optimal Transport","PDE","Calculus of Variations"]
 }
 </script>
+
+<footer style="margin-top:40px; text-align:center; color:#666; font-size:0.9rem;">
+  © William Ford — Last updated {{ site.time | date: "%b %Y" }}<br>
+  <a href="mailto:william.ford@polytechnique.edu">william.ford@polytechnique.edu</a>
+</footer>
+
