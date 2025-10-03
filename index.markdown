@@ -5,8 +5,9 @@
 layout: home
 ---
 <meta name="description" content="William Ford – PhD student at École Polytechnique working on Quantitative stability in Optimal Transport.">
+<title>William Ford - Optimal Transport
 
-Welcome to my personal webpage!
+Welcome to the personal webpage of William Ford!
 
 # Personal Information
 
