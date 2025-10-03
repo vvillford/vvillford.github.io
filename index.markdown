@@ -1,37 +1,111 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: William Ford — Optimal Transport
 ---
-<meta name="description" content="William Ford – PhD student at École Polytechnique working on Quantitative stability in Optimal Transport.">
 
-# Personal Information
+<!-- ✅ SEO + verification -->
+<meta name="description" content="William Ford — PhD student in Paris (École Polytechnique & LMO). Research: Optimal Transport, PDE, Calculus of Variations.">
+<meta name="google-site-verification" content="yuyuNvpB_KzMFdJftCH8pkkFzDRGjkNT9_kzzd9VopI" />
+<link rel="canonical" href="https://vvillford.github.io/">
 
-<div class="profile-section" style="display: flex; align-items: flex-start;">
-  <div class="profile-image">
-    <img src="/assets/ProfilePic.jpg" alt="Profile Photo" style="width:130px; height:auto; margin-right: 20px;" />
+<!-- ✅ Social previews -->
+<meta property="og:title" content="William Ford — Optimal Transport">
+<meta property="og:description" content="PhD student in Paris (École Polytechnique & LMO). Optimal Transport, PDE, Calculus of Variations.">
+<meta property="og:url" content="https://vvillford.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://vvillford.github.io/assets/ProfilePic.jpg">
+
+<!-- ✅ Minimal, responsive styling (no external deps) -->
+<style>
+:root { --max: 980px; --pad: 18px; --radius: 18px; }
+*{box-sizing:border-box} body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; line-height:1.6; color:#111}
+a{color:#0a58ca; text-decoration:none} a:hover{text-decoration:underline}
+.container{max-width:var(--max); margin:40px auto; padding:0 var(--pad)}
+.hero{display:grid; grid-template-columns:120px 1fr; gap:22px; align-items:center; margin-bottom:26px}
+.hero img{width:120px; height:120px; border-radius:50%; object-fit:cover; box-shadow:0 6px 20px rgba(0,0,0,.08)}
+.hero h1{margin:0; font-size:2rem; line-height:1.2}
+.kicker{color:#555; margin-top:6px}
+.btnrow{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
+.btn{display:inline-block; padding:10px 14px; border-radius:999px; border:1px solid #ddd; background:#fff}
+.btn.primary{background:#111; color:#fff; border-color:#111}
+.grid{display:grid; gap:16px; grid-template-columns:1fr; margin-top:18px}
+@media (min-width:820px){ .grid{grid-template-columns:1.1fr .9fr} }
+.card{border:1px solid #eee; border-radius:var(--radius); padding:18px; background:#fff; box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.card h2{margin:0 0 10px 0; font-size:1.25rem}
+.list{margin:0; padding-left:18px}
+.footer{margin:40px 0 10px; color:#666; font-size:.9rem}
+code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+</style>
+
+<div class="container">
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="/assets/ProfilePic.jpg" alt="William Ford">
+    <div>
+      <h1>William Ford</h1>
+      <div class="kicker">PhD student — École Polytechnique (CMAP) & LMO Paris-Saclay</div>
+      <div class="btnrow">
+        <a class="btn primary" href="/assets/CV-29-sept-2025.pdf">Download CV</a>
+        <a class="btn" href="mailto:william.ford@polytechnique.edu">Email</a>
+        <a class="btn" href="https://scholar.google.com" rel="me">Google Scholar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main grid -->
+  <div class="grid">
+
+    <section class="card">
+      <h2>About</h2>
+      <p>I’m a PhD student in Paris advised by <a href="http://www.cmap.polytechnique.fr/~michael.goldman/">Michael Goldman</a> and
+      <a href="https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html">Cyril Letrouit</a>. My work focuses on
+      <strong>quantitative stability in optimal transport</strong>.
+      My M2 thesis is <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">here</a>.</p>
+
+      <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
+
+      <p><strong>Languages:</strong> EN (native), FR (B2), DE (A2).<br>
+         <strong>Contact:</strong> william (dot) ford (at) polytechnique (dot) edu.</p>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <ul class="list">
+        <li>PhD in Mathematics, École Polytechnique & LMO Paris-Saclay (2025–).</li>
+        <li>M2 Optimisation, IP Paris PhD track / Paris Saclay — Sophie Germain Scholar.</li>
+        <li>MSc & BSc Mathematics, Durham University (1st class; Winton MSc Memorial Prize; Norton Prize).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Writing & Slides</h2>
+      <ul class="list">
+        <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative stability in OT</a>.</li>
+        <li>MSc thesis (OT regularity): <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">PDF</a>.</li>
+        <li>BSc thesis (complex analysis): <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">PDF</a>.</li>
+      </ul>
+    </section>
+
   </div>
-  <div class="profile-info">
-    <p><strong>Full name:</strong> William Henry Ford.</p>
-    <p><strong> Born: </strong> 22nd May 2002, Penrith, Cumbria, England.</p>
-    <p><strong>Languages:</strong> English (Native), French (B2), German (A2).</p>
-    <p><strong>Email:</strong> william (dot) ford (at) polytechnique (dot) edu.</p>
-  </div>
+
+  <p class="footer">© William Ford — Last updated {{ site.time | date: "%b %Y" }}</p>
 </div>
 
-# Education
-I am currently pursuing a PhD in Mathematics in Paris, jointly at the [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP), École Polytechnique and [Laboratoire Mathématiques d'Orsay](https://www.imo.universite-paris-saclay.fr/en/) (LMO), Paris-Saclay. Together with  [Michael Goldman](http://www.cmap.polytechnique.fr/~michael.goldman/) (CMAP) and [Cyril Letrouit](https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html) (LMO), we are working on better understanding the quantitative stability properties of the optimal transport problem. This is crucial for applications - to quantify errors introduced by approximations - as well from a theoretical viewpoint - to better understand the behaviour of the optimal transport problem under deformations of its marginals.
-
-
-Before this I completed an [M2 Mathematics (Optimisation)](https://www.master-in-optimization.fr/) master degree at the Institut Polytechnique de Paris, France as part of their [PhD track programme](https://www.ip-paris.fr/en/education/phd-track/phd-track-mathematics); supported by a [Sophie Germain Scholarship](https://www.fondation-hadamard.fr/en/our-programs/transversal-programs/graduate-program/apply-for-a-sophie-germain-scholarship/) from the Fondation Mathématique Jacques Hadamard, as well as an IP Paris PhD track full package scholarship.
-
-My M2 internship (April - August 2025) was at the [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP), École Polytechnique, also with Michael and Cyril on the same subject as the PhD. My M2 thesis is available [here](assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf).
-
-Before this I completed a 3 year [BSc Mathematics](https://www.durham.ac.uk/study/courses/mathematics-g100/) followed by a 1 year [MSc Mathematics](https://www.durham.ac.uk/study/courses/mathematical-sciences-g1k509/) at Durham University (England, UK). In both degrees I attained first class marks (très bien) in every module taken, and I recieved the Winton MSc Memorial Prize for the highest average marks on the MSc programme. I also recieved the Norton Prize for outstanding performance in the first year of my BSc in 2021. I completed my master's thesis on regularity of optimal transport maps, under the supervision of [Alpár Mészáros](https://www.maths.dur.ac.uk/users/alpar.r.meszaros/). My master's thesis is available [here](assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf) and my bachelor's thesis [here](assets/Normal_Families_in_Complex_Analysis.pdf).
-
-My CV (October 2025) is available [here](assets/CV-29-sept-2025.pdf).
-
-# Research Interests
-
-Optimal transport, PDE, Calculus of Variations.
+<!-- ✅ Structured data for rich results -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"William Ford",
+  "url":"https://vvillford.github.io/",
+  "image":"https://vvillford.github.io/assets/ProfilePic.jpg",
+  "affiliation":[
+    {"@type":"CollegeOrUniversity","name":"École Polytechnique"},
+    {"@type":"CollegeOrUniversity","name":"Université Paris-Saclay (LMO)"}
+  ],
+  "email":"mailto:william.ford@polytechnique.edu",
+  "jobTitle":"PhD Student",
+  "knowsAbout":["Optimal Transport","PDE","Calculus of Variations"]
+}
+</script>
