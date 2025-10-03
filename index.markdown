@@ -4,6 +4,7 @@
 
 layout: home
 ---
+<meta name="description" content="William Ford – PhD student at École Polytechnique working on Quantitative stability in Optimal Transport.">
 
 Welcome to my personal webpage!
 
@@ -31,7 +32,7 @@ My M2 internship (April - August 2025) was at the [Centre de Mathématiques Appl
 
 Before this I completed a 3 year [BSc Mathematics](https://www.durham.ac.uk/study/courses/mathematics-g100/) followed by a 1 year [MSc Mathematics](https://www.durham.ac.uk/study/courses/mathematical-sciences-g1k509/) at Durham University (England, UK). In both degrees I attained first class marks (très bien) in every module taken, and I recieved the Winton MSc Memorial Prize for the highest average marks on the MSc programme. I also recieved the Norton Prize for outstanding performance in the first year of my BSc in 2021. I completed my master's thesis on regularity of optimal transport maps, under the supervision of [Alpár Mészáros](https://www.maths.dur.ac.uk/users/alpar.r.meszaros/). My master's thesis is available [here](assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf) and my bachelor's thesis [here](assets/Normal_Families_in_Complex_Analysis.pdf).
 
-My CV (September 2025) is available [here](assets/CV-29-sept-2025.pdf).
+My CV (October 2025) is available [here](assets/CV-29-sept-2025.pdf).
 
 # Research Interests
 
