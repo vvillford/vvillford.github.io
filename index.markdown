@@ -61,7 +61,6 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
       <p>I’m a PhD student in Paris advised by <a href="http://www.cmap.polytechnique.fr/~michael.goldman/">Michael Goldman</a> and
       <a href="https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html">Cyril Letrouit</a>. My work focuses on
       <strong>quantitative stability in optimal transport</strong>.
-      My M2 thesis is <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">here</a>.</p>
 
       <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
 
@@ -79,7 +78,7 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
     </section>
 
     <section class="card">
-      <h2>Writing & Slides</h2>
+      <h2>Theses</h2>
       <ul class="list">
         <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative stability in OT</a>.</li>
         <li>MSc thesis (OT regularity): <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">PDF</a>.</li>
