@@ -46,7 +46,7 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
       <h1>William Ford</h1>
       <div class="kicker">PhD student — École Polytechnique (CMAP) & LMO Paris-Saclay</div>
       <div class="btnrow">
-        <a class="btn primary" href="/assets/CV-29-sept-2025.pdf">Download CV</a>
+        <a class="btn primary" href="/assets/CV-29-sept-2025.pdf">Detailed CV</a>
         <a class="btn" href="mailto:william.ford@polytechnique.edu">Email</a>
         <a class="btn" href="https://scholar.google.com" rel="me">Google Scholar</a>
       </div>
@@ -66,26 +66,26 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
 
   <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
 
-  <p><strong>Languages:</strong> EN (native), FR (B2), DE (A2).<br>
-     <strong>Contact:</strong> william (dot) ford (at) polytechnique (dot) edu.</p>
+  <p><strong>Languages:</strong> English (native), French (B2), German (A2).<br>
+     <strong>Contact:</strong> <a href="mailto:william.ford@polytechnique.edu">william.ford@polytechnique.edu</a>.</p>
 </section>
 
 
   <section class="card">
     <h2>Education</h2>
     <ul class="list">
-      <li>PhD in Mathematics, École Polytechnique & LMO Paris-Saclay (2025–).</li>
-      <li>M2 Optimisation, IP Paris PhD track / Paris Saclay — Sophie Germain Scholar.</li>
-      <li>MSc & BSc Mathematics, Durham University (1st class; Winton MSc Memorial Prize; Norton Prize).</li>
+      <li>2025- PhD in Mathematics, École Polytechnique & LMO Paris-Saclay.</li>
+      <li>2024-25 M2 Optimisation, IP Paris PhD track / Paris Saclay.</li>
+      <li>2020-24 MSc & BSc Mathematics, Durham University.</li>
     </ul>
   </section>
 
     <section class="card">
       <h2>Theses</h2>
       <ul class="list">
-        <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative stability in OT</a>.</li>
-        <li>MSc thesis (OT regularity): <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">PDF</a>.</li>
-        <li>BSc thesis (compactness criteria/complex analysis): <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">PDF</a>.</li>
+        <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative Stability in Discrete Optimal Transport</a>.</li>
+        <li>MSc thesis: <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">Partial regularity for optimal transport maps between uniform measures</a>.</li>
+        <li>BSc thesis: <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">(Normal families in complex analysis)</a>.</li>
       </ul>
     </section>
 
