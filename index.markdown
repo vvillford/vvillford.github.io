@@ -57,25 +57,28 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
   <div class="grid">
 
     <section class="card">
-      <h2>About</h2>
-      <p>I’m a PhD student in Paris advised by <a href="http://www.cmap.polytechnique.fr/~michael.goldman/">Michael Goldman</a> and
-      <a href="https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html">Cyril Letrouit</a>. My work focuses on
-      <strong>quantitative stability in optimal transport</strong>.
+  <h2>About</h2>
+  <p>I’m a PhD student in Paris advised by
+    <a href="http://www.cmap.polytechnique.fr/~michael.goldman/">Michael Goldman</a> and
+    <a href="https://www.imo.universite-paris-saclay.fr/~cyril.letrouit/index.html">Cyril Letrouit</a>. My work focuses on
+    <strong>quantitative stability in optimal transport</strong>.
+  </p>
 
-      <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
+  <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
 
-      <p><strong>Languages:</strong> EN (native), FR (B2), DE (A2).<br>
-         <strong>Contact:</strong> william (dot) ford (at) polytechnique (dot) edu.</p>
-    </section>
+  <p><strong>Languages:</strong> EN (native), FR (B2), DE (A2).<br>
+     <strong>Contact:</strong> william (dot) ford (at) polytechnique (dot) edu.</p>
+</section>
 
-    <section class="card">
-      <h2>Education</h2>
-      <ul class="list">
-        <li>PhD in Mathematics, École Polytechnique & LMO Paris-Saclay (2025–).</li>
-        <li>M2 Optimisation, IP Paris PhD track / Paris Saclay — Sophie Germain Scholar.</li>
-        <li>MSc & BSc Mathematics, Durham University (1st class; Winton MSc Memorial Prize; Norton Prize).</li>
-      </ul>
-    </section>
+
+  <section class="card">
+    <h2>Education</h2>
+    <ul class="list">
+      <li>PhD in Mathematics, École Polytechnique & LMO Paris-Saclay (2025–).</li>
+      <li>M2 Optimisation, IP Paris PhD track / Paris Saclay — Sophie Germain Scholar.</li>
+      <li>MSc & BSc Mathematics, Durham University (1st class; Winton MSc Memorial Prize; Norton Prize).</li>
+    </ul>
+  </section>
 
     <section class="card">
       <h2>Theses</h2>
@@ -88,7 +91,7 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
 
   </div>
 
-  <p class="footer">© William Ford — Last updated {{ site.time | date: "%b %Y" }}</p>
+
 </div>
 
 <!-- ✅ Structured data for rich results -->
@@ -109,8 +112,9 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
 }
 </script>
 
-<footer style="margin-top:40px; text-align:center; color:#666; font-size:0.9rem;">
-  © William Ford — Last updated {{ site.time | date: "%b %Y" }}<br>
+<footer style="margin-top:60px; text-align:center; color:#666; font-size:0.9rem;">
+  © William Ford — Last updated {{ site.time | date: "%b %Y" }} —
   <a href="mailto:william.ford@polytechnique.edu">william.ford@polytechnique.edu</a>
 </footer>
+
 
