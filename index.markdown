@@ -67,14 +67,14 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
   <p><strong>Interests:</strong> Optimal transport, PDE, calculus of variations.</p>
 
   <p><strong>Languages:</strong> English (native), French (B2), German (A2).<br>
-     <strong>Contact:</strong> <a href="mailto:william.ford@polytechnique.edu">william.ford@polytechnique.edu</a>.</p>
+     <strong>Contact:</strong> <a href="mailto:william.ford@polytechnique.edu">william.ford@polytechnique.edu</a>, office 2C1 at the LMO or 2008 at CMAP.</p>
 </section>
 
 
   <section class="card">
     <h2>Education</h2>
     <ul class="list">
-      <li>2025- PhD in Mathematics, École Polytechnique & LMO Paris-Saclay.</li>
+      <li>2025-28 PhD in Mathematics, École Polytechnique & LMO Paris-Saclay.</li>
       <li>2024-25 M2 Optimisation, IP Paris PhD track / Paris Saclay.</li>
       <li>2020-24 MSc & BSc Mathematics, Durham University.</li>
     </ul>
@@ -85,7 +85,7 @@ code{background:#f6f8fa; padding:.1rem .35rem; border-radius:6px; font-family:ui
       <ul class="list">
         <li>M2 thesis: <a href="/assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">Quantitative Stability in Discrete Optimal Transport</a>.</li>
         <li>MSc thesis: <a href="/assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">Partial regularity for optimal transport maps between uniform measures</a>.</li>
-        <li>BSc thesis: <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">(Normal families in complex analysis)</a>.</li>
+        <li>BSc thesis: <a href="/assets/Normal_Families_in_Complex_Analysis.pdf">Normal families in complex analysis</a>.</li>
       </ul>
     </section>
 
