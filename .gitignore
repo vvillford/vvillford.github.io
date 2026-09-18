@@ -1,0 +1,4 @@
+# Publish only the reviewed public CV. Keep private and dated copies out.
+assets/*[Cc][Vv]*.pdf
+!assets/cv.pdf
+.DS_Store
