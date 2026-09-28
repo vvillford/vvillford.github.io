@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>William Ford</title>
+  <title>About — William Ford</title>
   <meta name="description" content="William Ford — PhD student in mathematics at École Polytechnique and LMO Paris-Saclay. Research in optimal transport, PDE, and calculus of variations.">
   <link rel="canonical" href="https://vvillford.github.io/">
 
@@ -13,189 +13,7 @@
   <meta property="og:url" content="https://vvillford.github.io/">
   <meta property="og:image" content="https://vvillford.github.io/assets/profile-450.jpg">
 
-  <style>
-    :root {
-      --bg: #fbfaf8;
-      --text: #1e1e1e;
-      --muted: #66615b;
-      --line: #ded8cf;
-      --accent: #6d3f1f;
-      --accent-soft: #f0e5dc;
-      --card: #ffffff;
-      --max: 860px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration-thickness: 0.08em;
-      text-underline-offset: 0.16em;
-    }
-
-    a:hover {
-      text-decoration-thickness: 0.12em;
-    }
-
-    .page {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 22px 54px;
-    }
-
-    header {
-      display: grid;
-      grid-template-columns: 150px 1fr;
-      gap: 28px;
-      align-items: center;
-      padding-bottom: 34px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .portrait {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 1px solid var(--line);
-      background: var(--accent-soft);
-    }
-
-    h1 {
-      margin: 0 0 6px;
-      font-size: 2.45rem;
-      line-height: 1.1;
-      letter-spacing: -0.03em;
-    }
-
-    .subtitle {
-      margin: 0 0 14px;
-      color: var(--muted);
-      font-size: 1.03rem;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 16px;
-      font-size: 0.96rem;
-    }
-
-    nav a {
-      color: var(--text);
-    }
-
-    section {
-      padding: 28px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    section:last-of-type {
-      border-bottom: 0;
-    }
-
-    h2 {
-      margin: 0 0 14px;
-      font-size: 1.28rem;
-      letter-spacing: -0.01em;
-    }
-
-    p {
-      margin: 0 0 14px;
-    }
-
-    ul {
-      margin: 0;
-      padding-left: 1.1em;
-    }
-
-    li {
-      margin: 0 0 10px;
-    }
-
-    .paper,
-    .talk {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px 18px;
-      margin: 14px 0;
-    }
-
-    .title {
-      font-weight: 700;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: 0.96rem;
-      margin-top: 2px;
-    }
-
-    .links {
-      margin-top: 8px;
-      font-size: 0.96rem;
-    }
-
-    .summary {
-      margin: 8px 0 0;
-      font-size: 0.96rem;
-    }
-
-    .links a {
-      margin-right: 12px;
-    }
-
-    .small {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer {
-      padding-top: 30px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    @media (max-width: 650px) {
-      body {
-        font-size: 17px;
-      }
-
-      .page {
-        padding-top: 28px;
-      }
-
-      header {
-        grid-template-columns: 1fr;
-        gap: 18px;
-      }
-
-      .portrait {
-        width: 122px;
-        height: 122px;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 
   <script type="application/ld+json">
   {
@@ -223,29 +41,33 @@
 </head>
 
 <body>
-  <main class="page">
-    <header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="banner">
+      <a class="brand" href="index.html">William Ford</a>
+      <nav class="contact-links" aria-label="Contact and profiles">
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=KjjF0vsAAAAJ">Google Scholar</a>
+        <a href="mailto:william.ford@polytechnique.edu">Email</a>
+        <a href="assets/cv.pdf">CV</a>
+      </nav>
+    </div>
+    <nav class="tabs" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">About</a>
+          <a href="research.html">Research</a>
+          <a href="communications.html">Communications</a>
+          <a href="news.html">News</a>
+    </nav>
+  </header>
+  <main class="page" id="main">
+    <header class="profile">
       <img class="portrait" src="assets/profile-450.jpg" alt="William Ford" width="150" height="150" fetchpriority="high">
-
       <div>
         <h1>William Ford</h1>
         <p class="subtitle">PhD student in mathematics — École Polytechnique (CMAP) &amp; LMO Paris-Saclay</p>
-
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#preprints">Preprints</a>
-          <a href="#talks">Talks</a>
-          <a href="#posters">Posters</a>
-          <a href="#visits">Visits</a>
-          <a href="#education">Education</a>
-          <a href="assets/cv.pdf">CV</a>
-          <a href="https://scholar.google.com/citations?hl=en&amp;user=KjjF0vsAAAAJ">Google Scholar</a>
-          <a href="mailto:william.ford@polytechnique.edu">Email</a>
-        </nav>
       </div>
     </header>
 
-    <section id="about">
+<section id="about">
       <h2>About</h2>
 
       <p>
@@ -275,74 +97,7 @@
       <p>You can find my CV <a href="assets/cv.pdf" aria-label="Download my CV (PDF)">HERE</a>.</p>
     </section>
 
-    <section id="preprints">
-      <h2>Preprints</h2>
-
-      <article class="paper">
-        <div class="title">Quantitative Stability, Coercivity and Uniqueness of Optimal Transport Plans</div>
-        <div class="meta">William Ford, 2026.</div>
-        <p class="summary">In my most recent paper, I prove that when <em>one</em> of the marginal probabilities is suitably regular, the optimal transport problem is locally quantitatively stable with respect to perturbation of <em>both</em> marginals. My results also have direct implications for the statistical estimation of transport maps.</p>
-      </article>
-
-      <article class="paper">
-        <div class="title">Quantitative Uniqueness of Kantorovich Potentials</div>
-        <div class="meta">William Ford, 2026.</div>
-        <p class="summary">In my first paper, I gave the first quantitative bounds for almost-uniqueness of the dual optimal transport problem, as well as vastly generalising the sharp hypotheses for uniqueness to allow for lower-dimensional marginal measures. This was a result of a novel geometric insight regarding the structure of the set of optimal potentials.</p>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2603.29595">arXiv</a>
-          <a href="https://arxiv.org/pdf/2603.29595">PDF</a>
-        </div>
-      </article>
-
-      <article class="paper">
-        <div class="title">Quantitative Stability in Discrete Optimal Transport</div>
-        <div class="meta">William Ford, 2025. M2 thesis.</div>
-        <p class="summary">During my M2 research internship, I studied the stability properties of the fully discrete optimal transport problem. This has intimate connections with linear programming, and taking this novel approach to stability led to the uniqueness results in my first paper.</p>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2510.17407">arXiv</a>
-          <a href="https://arxiv.org/pdf/2510.17407">PDF</a>
-        </div>
-      </article>
-
-    </section>
-
-    <section id="talks">
-      <h2>Talks</h2>
-
-      <article class="talk">
-        <div class="title">Quantitative Stability, Coercivity and Uniqueness of Optimal Transport Plans</div>
-        <div class="meta">30 September 2026. <a href="https://indico.math.cnrs.fr/event/17379/">GT EYAWKAJKOS</a>, Institut Camille Jordan.</div>
-      </article>
-
-      <article class="talk">
-        <div class="title">Quantitative Uniqueness of Kantorovich Potentials</div>
-        <div class="meta">30 March 2026. <a href="https://team.inria.fr/parma/francais-gdt-edp-ot-ml/">GdT OT-PDE-ML seminar</a>, LMO Paris-Saclay.</div>
-      </article>
-    </section>
-
-    <section id="posters">
-      <h2>Poster presentations</h2>
-
-      <article class="talk">
-        <div class="title"><a href="https://focm2026.univie.ac.at/">Foundations of Computational Mathematics (FoCM 2026)</a></div>
-        <div class="meta">July 2026. University of Vienna, Austria.</div>
-      </article>
-
-      <article class="talk">
-        <div class="title"><a href="https://indico.math.cnrs.fr/event/14650/">Première rencontre nationale du RT Optimisation</a></div>
-        <div class="meta">26–28 November 2025. INSA Lyon, France.</div>
-      </article>
-    </section>
-
-    <section id="visits">
-      <h2>Visits</h2>
-
-      <ul>
-        <li><time datetime="2026-09-28">28 September</time>–<time datetime="2026-10-24">24 October 2026</time>: Currently visiting Filippo Santambrogio in Lyon, France.</li>
-      </ul>
-    </section>
-
-    <section id="education">
+<section id="education">
       <h2>Education</h2>
 
       <ul>
@@ -352,42 +107,19 @@
       </ul>
     </section>
 
-    <section id="theses">
-      <h2>Theses</h2>
-
-      <ul>
-        <li>
-          M2 thesis:
-          <a href="assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf">
-            Quantitative Stability in Discrete Optimal Transport
-          </a>.
-        </li>
-        <li>
-          MSc thesis:
-          <a href="assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf">
-            Partial Regularity for Optimal Transport Maps between Uniform Measures
-          </a>.
-        </li>
-        <li>
-          BSc thesis:
-          <a href="assets/Normal_Families_in_Complex_Analysis.pdf">
-            Normal Families in Complex Analysis
-          </a>.
-        </li>
-      </ul>
-    </section>
-
-    <section id="responsibilities">
+<section id="responsibilities">
       <h2>Responsibilities</h2>
 
       <ul>
         <li>Co-organiser of the <a href="https://team.inria.fr/parma/francais-gdt-edp-ot-ml/">GdT OT-PDE-ML seminar</a> (ParMA team, LMO Paris-Saclay).</li>
       </ul>
     </section>
-
-    <footer>
-      © William Ford. Last updated September 2026.
-    </footer>
+    <footer>© William Ford. Last updated September 2026.</footer>
   </main>
+  <script>
+    const oldSections = {preprints: 'research.html#preprints', theses: 'research.html#theses', talks: 'communications.html#talks', posters: 'communications.html#posters', visits: 'news.html#visits', research: 'research.html', communications: 'communications.html', news: 'news.html'};
+    const destination = oldSections[location.hash.slice(1)];
+    if (destination) location.replace(destination);
+  </script>
 </body>
 </html>
