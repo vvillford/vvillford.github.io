@@ -17,7 +17,7 @@
 
     const updateLabel = () => {
       const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      button.textContent = next === 'light' ? 'Light mode' : 'Dark mode';
+      button.title = `Switch to ${next} mode`;
       button.setAttribute('aria-label', `Switch to ${next} mode`);
     };
 
