@@ -1,4 +1,16 @@
 :root {
+  color-scheme: dark;
+  --bg: #191919;
+  --text: #eee9e2;
+  --muted: #b5aea5;
+  --line: #45403a;
+  --accent: #e2ad7d;
+  --accent-soft: #352b23;
+  --card: #232220;
+  --max: 900px;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
   --bg: #fbfaf8;
   --text: #1e1e1e;
   --muted: #66615b;
@@ -13,12 +25,15 @@ html { scroll-padding-top: 155px; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.6 Georgia, "Times New Roman", serif; }
 a { color: var(--accent); text-decoration-thickness: .08em; text-underline-offset: .16em; }
 a:hover { text-decoration-thickness: .12em; }
-a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
-.skip-link { position: fixed; top: -100px; left: 16px; padding: 8px 16px; background: white; z-index: 20; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+.skip-link { position: fixed; top: -100px; left: 16px; padding: 8px 16px; background: var(--card); z-index: 20; }
 .skip-link:focus { top: 8px; }
 .site-header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
 .banner { max-width: var(--max); margin: auto; padding: 18px 24px 14px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { font-size: 1.2rem; font-weight: bold; color: var(--text); text-decoration: none; }
+.banner-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; }
+.theme-toggle { font: inherit; font-size: .88rem; line-height: 1.3; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; min-height: 44px; cursor: pointer; white-space: nowrap; }
+.theme-toggle:hover { border-color: var(--accent); }
 .contact-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: .94rem; }
 .tabs { display: flex; max-width: var(--max); margin: auto; padding: 0 24px; gap: 28px; }
 .tabs a { padding: 10px 0 12px; color: var(--muted); text-decoration: none; border-bottom: 3px solid transparent; font-size: 1rem; }
@@ -55,6 +70,8 @@ footer { padding-top: 30px; color: var(--muted); font-size: .92rem; }
   body { font-size: 17px; }
   .banner { padding: 12px 18px 8px; flex-wrap: wrap; gap: 4px 16px; }
   .brand { font-size: 1.1rem; }
+  .banner-actions { width: 100%; justify-content: space-between; gap: 8px; }
+  .theme-toggle { font-size: .82rem; padding: 8px; }
   .contact-links { gap: 14px; font-size: .88rem; }
   .tabs { padding: 0 18px; gap: 0; justify-content: space-between; }
   .tabs a { font-size: .9rem; padding: 10px 0; }
