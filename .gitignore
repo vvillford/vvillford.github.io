@@ -2,3 +2,4 @@
 assets/*[Cc][Vv]*.pdf
 !assets/cv.pdf
 .DS_Store
+.vscode/
