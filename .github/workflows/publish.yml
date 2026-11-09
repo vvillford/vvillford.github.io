@@ -1,0 +1,47 @@
+name: Publish public website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF text extraction
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Block private CV publication
+        run: python3 scripts/check_public_cv.py assets/cv.pdf
+      - name: Prepare public files only
+        run: |
+          mkdir -p _site/assets _site/.well-known
+          cp *.html styles.css theme.js .nojekyll _site/
+          cp assets/cv.pdf assets/profile-450.jpg _site/assets/
+          cp assets/Normal_Families_in_Complex_Analysis.pdf assets/Partial_Regularity_for_Optimal_Transport_Maps_between_Uniform_Measures.pdf assets/Stabilité_Quantitative_en_Transport_Optimal_Discret-2.pdf _site/assets/
+          cp -R .well-known/. _site/.well-known/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: check-and-build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified public website
+        id: deployment
+        uses: actions/deploy-pages@v4
